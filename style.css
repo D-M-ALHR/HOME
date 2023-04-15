@@ -53,9 +53,7 @@ a{ text-decoration:none ;
 color:red;
 }
 
-#join{
 
-color:white}
 
 button{
 background-color:#245FC1;
@@ -69,6 +67,33 @@ background-color:#245FC1;
     ;}
 #img{
     width: 25%;
+}
+
+.join{
+    color: white;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: crimson;
+    display: block;
+    transition: 0.3s;
+}
+
+.container-join :hover {
+    background-color: rgb(170, 23, 53);
+    transition: 0.3s
+}
+
+.copyright {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 @media (max-width:650px) {
