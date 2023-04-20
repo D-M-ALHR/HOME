@@ -1,0 +1,126 @@
+body {
+    background-image: url("bg.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 200%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#navbar {
+
+    background-color: #142850;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+
+}
+
+#navbar-list {
+    list-style: none;
+}
+
+#navbar-item {
+    display: inline-block;
+    height: 50px;
+    width: 8rem;
+    line-height: 50px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#navbar-item:hover {
+    background-color: #27496d;
+    transition: 0.3s;
+}
+
+#navbar-link {
+    color: #eeeeee;
+    display: block;
+
+}
+
+#navbar-link:hover {
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+
+
+    color: red;
+}
+
+
+
+button {
+    background-color: #245FC1;
+}
+
+#QSM {
+    background-color: #245FC1;
+}
+
+#FOOT {
+    font-family: arial;
+
+}
+
+#h1 {
+    background-color: #245FC1;
+}
+
+#img {
+    width: 25%;
+}
+
+.join {
+    color: white;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: crimson;
+    display: block;
+    transition: 0.3s;
+}
+
+.container-join :hover {
+    background-color: #2e7dda;
+    transition: 0.3s
+}
+
+
+.copyright {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+@media (max-width:650px) {
+    #navbar-item {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    #img {
+        width: 5%;
+    }
+}
